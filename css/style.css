@@ -1,0 +1,179 @@
+/* CSS Document */
+
+/*图片轮播*/
+/****************************************************/
+
+.img_nav {
+	position: relative; 
+	width: 900px; 
+	height: 500px;
+	border:none;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+	
+.big_img a {
+	position: absolute; 
+	top: 0px; 
+	left: 0px;
+	right: 0px;
+}
+
+.img_nav img {
+	max-width: 100%;
+	max-height: 500px;
+	display: flex;
+	margin: 0 auto;
+	align-content: center;
+}	
+
+/*****************************************************/
+
+
+/*总布局*/
+/*****************************************************/
+.all_main #nav_main {
+	height:100px;
+	width:auto;
+	float: none;
+	position: fixed;
+	top: 0;
+	background-color: #5256E5;
+	z-index: 99;
+	align-items: center;
+	left: 0;
+	right: 0;
+}
+
+.all_main #overall_nav_fill {
+	height: 100px;
+	width: auto;
+	float: none;
+	background-color: #FFA500;
+	clear: both;
+}
+
+.all_main #primary_tank {
+	height: auto;
+	width: 1220px;
+	min-width: 1220px; 
+	background-color: #D04F46;
+	margin: 0 auto; 
+	float: none;
+	clear: both;
+}
+
+.all_main #footer {
+	height:200px;
+	width:auto;
+	background-color:#5256E5;
+	clear: both;
+}
+/*****************************************************/
+
+
+/*导航栏*/
+/*****************************************************/
+.nav button {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	
+	font: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.nav td {
+	width: 25%;
+	height: 100%;
+}
+.nav td:hover {
+	background-color: #474BE3;
+}
+.nav td:active {
+	background-color: #5458E7;
+}
+.nav td:visited {
+	background-color: #6568DC;
+}
+
+.nav #nav_control {
+	width: 1100px; 
+	margin: 0 auto;
+	float: none;
+	align-items: center;
+	right: 0;
+	clear: both;
+}
+
+.nav #nav_logo {
+	height: 100px;
+	width: 100px;
+	float:left;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	margin-right: 100px;
+}
+
+.nav #nav_menu {
+	background-color: #5256E5;
+	height: 100px;
+	width: 900px;
+	min-height: 50px;
+	min-width: 900px;
+	float: left;
+}
+/*****************************************************/
+
+
+/*主视图和侧边视图*/
+/*****************************************************/
+.primary #main {
+	height: auto;
+	width: 900px;
+	float: left;
+}
+
+.primary #sidebar {
+	height: 700px;
+	width: 300px;
+	background-color:#48B7B5;
+	float: left;
+	margin-left: 20px;
+}
+/*****************************************************/
+
+
+/*主视图的主面板*/
+/*****************************************************/
+.primary_main #header {
+	height:500px;
+	width:900px;
+	float: none;
+}
+
+.primary_main #content {
+	height:350px;
+	width:900px;
+	background-color:#FF8C00;
+	overflow-x: auto;
+	overflow-y: auto;
+	float: none;
+	margin-top: 50px;
+}
+/*****************************************************/
+
+
+/*主视图的侧面板*/
+/*****************************************************/
+
+/*****************************************************/
+
+
+
